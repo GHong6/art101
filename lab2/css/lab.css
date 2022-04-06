@@ -1,0 +1,21 @@
+h1{
+  color: blue;
+  font-size: 200%;
+  font-family: "helvetica";
+}
+
+p{
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left:20px;
+}
+
+#content{
+  background-color: #ac89c7;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #444444;
+  font-size: 20px;
+}
