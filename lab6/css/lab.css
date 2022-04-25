@@ -1,0 +1,25 @@
+h1{
+  color: lightblue;
+  font-size: 200%;
+  font-family: "helvetica";
+}
+
+p{
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left:20px;
+}
+
+#content{
+  font-size: 75%;
+  background-color: #108042;
+  width: 400px;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #444444;
+}
+
+#dog{
+  color: red;
+}
