@@ -1,0 +1,95 @@
+h1{
+  color: #699df2;
+  font-size: 200%;
+  font-family: "helvetica";
+}
+
+p{
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left:20px;
+}
+
+#white{
+  color: black;
+  background-color: #ffffff;
+
+}
+
+#moveright{
+  margin-right:
+}
+
+#red{
+  color: white;
+  background-color: #ff0000;
+  margin-right: 0px;
+  padding-bottom: 200px;
+  padding-top: 10px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border-radius: 25px;
+  float: right;
+}
+
+#content{
+  font-size: 75%;
+  background-color: #383952;
+  width: 400px;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #201f23;
+}
+
+#dog{
+  color: #aa75ea;
+}
+
+
+#right{
+  float: right;
+}
+
+
+
+body {
+    margin: 2em;
+}
+article, div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.namecard {
+    width: 300px; height: 200px;
+    background: #e00;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.5), inset 0 0 20px rgba(0,0,0,.25);
+
+}
+.namecard div:first-child {
+    height: 65px;
+    padding-top: 5px;
+    color: #fff;
+    font-family: Helvetica;
+    text-align: center;
+    letter-spacing: .2em;
+}
+h1, p {
+    padding: 0; margin: 0;
+}
+h1 {
+    font-size: 2em;
+}
+.fn {
+    background: #fff;
+    height: 120px;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 5px;
+}
+.given-name {
+    font-size: 50px;
+    font-weight: bold;
+}
