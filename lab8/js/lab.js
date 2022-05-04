@@ -4,9 +4,6 @@
 *
 */
 
-mapResults = "hi"
-var outputEl = document.getElementById("output");
-outputEl.innerHTML = mapResults; // put your results here
 
 
 //Mutiplys number by 10
@@ -75,3 +72,8 @@ function aBetterNumSort(a,b) {
 console.log(numArray.sort(aBetterNumSort));
 
 console.log(numArray.sort());
+
+
+
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = mapResults; // put your results here
