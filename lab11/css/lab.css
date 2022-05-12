@@ -17,6 +17,10 @@ p{
 
 }
 
+.selected {
+  color: red;
+}
+
 #moveright{
   margin-right:
 }
@@ -68,5 +72,4 @@ article, div {
 #output{
   color: #da5dac;
   font-size: 400%;
-  
 }
