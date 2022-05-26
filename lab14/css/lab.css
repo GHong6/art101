@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+h1{
+  color: #e6b328;
+  font-size: 200%;
+  font-family: "helvetica";
+}
+
+
+p{
+  font-family: "helvetica";
+  text-indent: 20px;
+  margin-left:20px;
+}
+
+#white{
+  color: black;
+  background-color: #baa1ce;
+
+}
+
+#moveright{
+  margin-right:
+}
+
+#red{
+  color: white;
+  background-color: #ff0000;
+  margin-right: 0px;
+  padding-bottom: 200px;
+  padding-top: 10px;
+  padding-right: 120px;
+  padding-left: 120px;
+  border-radius: 25px;
+  float: right;
+}
+
+#content{
+  font-size: 75%;
+  color: white;
+  background-color: #1a1b32;
+  width: absolute;
+  min-height: 100px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 4px #e5d271;
+}
+
+#dog{
+  color: #aa75ea;
+}
+
+#output1{
+  font-size: 190%;
+  color: #ffa97a;
+}
+
+body {
+    background-image: url("https://i.imgur.com/tAFAbvB_d.webp?maxwidth=1520&fidelity=grand");
+    background-size: 1920px 1080px;
+    margin: 2px;
+    background-color: #494846;
+
+
+}
+article, div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#output{
+  margin: 10px;
+  font-size: 200%;
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
