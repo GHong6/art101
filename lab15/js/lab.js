@@ -1,7 +1,8 @@
-
+//Garrett Hong
+//5/25
 
 //create an end point
-var endpoint = "http://www.yerkee.com/api/fortune/wisdom";
+var endpoint = "https://pokeapi.co/api/v2/pokemon/lucario";
 function getAjax() {
 	$.ajax({
   	url: endpoint,
@@ -10,7 +11,9 @@ function getAjax() {
 
   //output data from website
   .done(function(data){
-  	$("#output").html(data.fortune);
+    $("#output").append("<img src=" + data.sprites.other.home.front_default + ">");
+
+
     console.log("done")
 
   })
@@ -23,3 +26,16 @@ function getAjax() {
 
 //create button
 $("button").click(getAjax);
+
+
+//
+// [
+//     {
+//         "id": "0",
+//         "author": "Alejandro Escamilla",
+//         "width": 5616,
+//         "height": 3744,
+//         "url": "https://unsplash.com/...",
+//         "download_url": "https://picsum.photos/..."
+//     }
+// ]
